@@ -33,3 +33,7 @@ JWT (JSON Web Tokens): Mecanismo de autenticação baseado em tokens.
 <div align="center">
 <img src="https://github.com/GustavoRReis/App-Dona-Tereza/assets/104792017/8357eb0c-9416-453d-8956-651caf6835e0" width="650px" />
 </div>
+<br></br>
+<div align="center">
+<img src="https://github.com/GustavoRReis/App-Dona-Tereza/assets/104792017/dc192425-32ad-45ac-91b4-174ccb7354e0" width="650px" />
+</div>
