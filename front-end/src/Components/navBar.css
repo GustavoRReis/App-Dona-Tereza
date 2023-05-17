@@ -1,0 +1,61 @@
+.box-navBar {
+  background-color: rgb(35, 35, 41);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-navBar img {
+  height: 130px;
+}
+
+.button-nav2 {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.button-nav {
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  /* border: 2px solid rgb(255, 255, 255); */
+  z-index: 1;
+  color: white;
+}
+
+.button-nav:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  background: rgb(230, 171, 10);
+  transition: all 0.5s ease;
+  border-radius: 50px;
+}
+
+.button-nav:hover {
+  color: rgb(0, 0, 0);
+}
+
+.button-nav:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+
+.button-nav:active {
+  top: 2px;
+}

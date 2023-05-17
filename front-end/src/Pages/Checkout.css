@@ -1,0 +1,156 @@
+.box-checkout {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.box-list-checkout {
+  padding-top: 50px;
+}
+
+.box-ul1 {
+  display: flex;
+}
+
+.box-ul2 {
+  display: flex;
+}
+
+.td-checkout {
+  /* border: 2px solid black; */
+  font-size: 20px;
+  margin-top: -5px;
+  width: 90%;
+  list-style-type: none;
+  padding: 8px;
+  text-align: center;
+  
+}
+
+.td-checkout2 {
+  
+  font-size: 24px;
+  width: 16.5%;
+  list-style-type: none;
+  text-align: center;
+}
+
+.button-checkout {
+  width: 150px;
+  height: 28px;
+  font-size: 16px;
+  background-color: rgb(230, 171, 10);
+  border: none;
+  border-radius: 16px;
+  font-weight: bold;
+  opacity: 0.7;
+  margin-left: -130px;
+}
+
+.button-checkout:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.form-checkout {
+  display: flex;
+  width: 100%;
+  /*   background-color: red; */
+  padding-top: 100px;
+}
+
+.total-checkout {
+  padding-top: 4%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.total-checkout button {
+  width: 200px;
+  height: 48px;
+  font-size: 22px;
+  background-color: rgb(230, 171, 10);
+  border: none;
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.total-checkout button:hover{
+  background-color: rgb(17, 145, 45);
+  color: aliceblue;
+}
+
+.form2-checkout {
+  display: flex;
+  align-items: center;
+  /* background-color: yellow; */
+  width: 93.5%;
+  margin-left: 2%;
+  justify-content: space-around;
+}
+
+.div-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ /*  background-color: aqua; */
+}
+
+.div-form1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-input {
+  margin-bottom: 0px;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+}
+
+.form__field:hover{
+border-bottom: 2px solid rgb(230, 171, 10);
+}
+
+.li-item {
+  background-color: rgb(230, 171, 10);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.li-quantidade {
+  background-color: rgb(230, 171, 10);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.li-name {
+  background-color: rgb(230, 228, 221);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.li-valorU {
+  background-color: rgb(115, 240, 77);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.li-valorT {
+  background-color: rgb(52, 190, 10);
+  border-radius: 20px;
+  text-align: center;
+}
+
+

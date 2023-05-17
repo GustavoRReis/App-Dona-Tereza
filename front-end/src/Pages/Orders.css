@@ -1,0 +1,50 @@
+.box-orders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 6%;
+}
+
+.cards-orders {
+  margin: 30px;
+  width: 500px;
+height: 164px;
+}
+
+.card-detail {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px 5px rgb(190, 185, 185);
+}
+
+.data-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.status {
+  background-color: rgb(235, 214, 24);
+  padding: 4%;
+  border-radius: 24px;
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+
+}
+
+.pedido-order{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
