@@ -26,3 +26,10 @@ Express: Framework web para Node.js.
 Sequelize: ORM (Object-Relational Mapping) para trabalhar com o banco de dados MySQL.
 MySQL: Sistema de gerenciamento de banco de dados relacional.
 JWT (JSON Web Tokens): Mecanismo de autenticação baseado em tokens.
+
+
+# APP
+
+<div> align="center"
+img src="https://github.com/GustavoRReis/App-Dona-Tereza/assets/104792017/8357eb0c-9416-453d-8956-651caf6835e0" width="650px" /
+</div>
